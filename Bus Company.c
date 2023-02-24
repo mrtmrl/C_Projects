@@ -17,10 +17,10 @@ int main()
    int genislik4 = 3;
 
    for(i=0; i<12; i++) {
-      printf("%*d ", genislik1, arr[i][0]); // 1. sütunu yazdır
-      printf("%*c", genislik2, arr[i][2]); // 2. sütunu yazdır (boş karakter)
-      printf("%*d ", genislik3, arr[i][1]); // 3. sütunu yazdır
-      printf("%*d\n", genislik4, arr[i][3]); // 4. sütunu yazdır ve bir sonraki satıra geç
+      printf("%*d ", genislik1, arr[i][0]); 
+      printf("%*c", genislik2, arr[i][2]); 
+      printf("%*d ", genislik3, arr[i][1]); 
+      printf("%*d\n", genislik4, arr[i][3]); 
    }
    
    return 0;
